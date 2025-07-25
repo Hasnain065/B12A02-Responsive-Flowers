@@ -158,6 +158,50 @@ nav ul a {
 .plant-lover-img img {
     width: 100%;
 }
+.plants-lover-text {
+    width: 50%;
+}
+.plants-lover-section {
+    max-width: 1140px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 4rem;
+    margin: 0 auto;
+}
+.plants-lover-title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin: 0 auto;
+} 
+.plants-lover-sbutitle {
+    font-size: 1.5rem;
+}
+
+.plants-lover-sbutitle li {
+    margin-bottom: 1rem; /* space between items */
+}
+.lover-badge img {
+    width: 200px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.lover-badge {
+    position: absolute;
+    margin-bottom: 460px;
+    margin-right: 130px;
+    animation: spin 6s linear infinite;
+}
+
+
 
 
 
