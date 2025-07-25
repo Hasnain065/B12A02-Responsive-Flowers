@@ -257,4 +257,14 @@ nav ul a {
     .plants-card-container {
     margin: auto auto 4rem auto;
     }
+
+    .plants-lover-section {
+        flex-direction: column;
+    }
+    .lover-badge {
+        display: none;
+    }
+    .plants-lover-text {
+        width: fit-content;
+    }
 }
