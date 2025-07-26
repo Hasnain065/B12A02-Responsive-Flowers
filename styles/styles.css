@@ -31,6 +31,10 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+.dark5 {
+    color: rgba(107, 114, 128, 1)
+}
+
 
 
 /* Navbar Styles */
@@ -150,7 +154,6 @@ nav ul a {
     text-align: center;
     font-weight: 500;
     font-size: 1.3rem;
-    /* margin: top right bottom left; */
     margin: 1rem 0px 0px 0px;
 }
 
@@ -288,29 +291,30 @@ nav ul a {
     border-radius: 4px;
     font-size: 0.9rem;
 }
+
 .text-container a:hover {
     background-color: white;
     color: black;
 }
 
-.bloom-plant h1, 
+.bloom-plant h1,
 .ana-plant h1 {
-  font-size: 1.3rem;
+    font-size: 1.3rem;
 }
 
-.bloom-plant p, 
-.ana-plant p
- {
-  font-size: 1rem;
+.bloom-plant p,
+.ana-plant p {
+    font-size: 1rem;
 }
 
 .zabo-plant h1 {
     font-size: 3rem;
 
 }
-.zabo-plant p{
+
+.zabo-plant p {
     font-size: 1.8rem;
-    
+
 }
 
 
@@ -346,21 +350,61 @@ nav ul a {
     border: none;
     padding: 0 1rem;
     cursor: pointer;
-    }
+}
 
 .newsletter-heading {
     font-size: 3rem;
     font-weight: 600;
     margin: 0 auto;
-    }
+}
 
 .newsletter-input-txt::placeholder {
-  font-size: 1rem; 
+    font-size: 1rem;
 }
+
 .newsletter-input-btn {
     font-size: 1rem;
 }
 
+/* Footer Section Styles */
+
+.footer {
+  max-width: 1140px;
+  margin: 1.3rem auto;
+  display: grid;
+  grid-template-columns: 35% 15% 15% 35%;
+  gap: 20px;
+  align-items: start;
+}
+
+.menu-2 ul,
+.menu-3 ul {
+  list-style: none;
+  margin: 0;
+}
+
+.menu-2 ul a,
+.menu-3 ul a {
+  text-decoration: none;
+  color: rgba(107, 114, 128, 1);
+}
+
+.menu-2 ul li,
+.menu-3 ul li {
+  padding-bottom: 1.2rem;
+}
+
+.menu-4 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.7rem;
+}
+
+.menu-4 img {
+  width: 24px;
+  height: auto;
+}
 
 /* Media Query for Mobile Device */
 @media screen and (max-width: 576px) {
@@ -373,7 +417,7 @@ nav ul a {
 
     .menu-items ul li:not(:last-child) {
         display: none;
-        /* Hide Home, Shop, About Us */
+
     }
 
     .banner {
@@ -412,7 +456,6 @@ nav ul a {
 
     .add-to-cart-btn {
         padding: 0.5rem 0px 0.5rem 0px;
-        ;
     }
 
     .plants-title {
@@ -467,16 +510,28 @@ nav ul a {
         grid-column: auto;
         grid-row: auto;
     }
-.zabo-plant h1 {
-    font-size: 1.3rem;
 
-}
-.newsletter-heading {
-    font-size: 1.3rem;
+    .zabo-plant h1 {
+        font-size: 1.3rem;
+
     }
 
-.newsletter-input-txt {
-    font-size: 1rem;
+    .newsletter-heading {
+        font-size: 1.3rem;
+    }
+
+    .newsletter-input-txt {
+        font-size: 1rem;
+    }
+    .menu-1 {
+        margin-left: 40px;
+    }
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .menu-4 {
+        margin-left: 40px;
     }
 
 
